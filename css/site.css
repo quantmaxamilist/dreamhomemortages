@@ -179,6 +179,16 @@ header.site .bar{max-width:var(--wrap);margin:0 auto;padding:11px 14px 11px 24px
 .form input:focus,.form select:focus,.form textarea:focus{outline:none;border-color:var(--gold);background:#fff}
 .form textarea{min-height:130px;resize:vertical}
 .form .btn{margin-top:22px;width:100%}
+.form-note{margin-top:12px;font-size:.82rem;color:var(--muted);line-height:1.5}
+.form-note a{color:var(--ink);text-decoration:underline;text-underline-offset:2px}
+.form-note a:hover{color:var(--gold-d)}
+.legal{max-width:74ch}
+.legal h2{font-size:1.45rem;margin:32px 0 10px;letter-spacing:-.02em}
+.legal p{margin-bottom:14px}
+.legal ul{margin:0 0 14px 1.2rem}
+.legal li{margin-bottom:6px}
+.legal a{color:var(--gold-d);text-decoration:underline;text-underline-offset:2px}
+.legal .updated{color:var(--muted);font-size:.92rem}
 .cinfo{display:grid;gap:16px}
 .citem{display:flex;gap:15px;align-items:flex-start;background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:22px}
 .citem .ic{width:48px;height:48px;border-radius:13px;background:var(--gold);display:grid;place-items:center;flex:none}
